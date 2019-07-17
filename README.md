@@ -1,6 +1,12 @@
-# buuug7 uni-app components
+# buuug7-uniapp-components
 
 The components support [uni-app](https://uniapp.dcloud.io/)
+
+## usage
+```
+npm install buuug7-uniapp-components
+
+```
 
 ## components
 
@@ -8,11 +14,3 @@ The components support [uni-app](https://uniapp.dcloud.io/)
 + loading-skeleton
 + simple-datetime-picker
 + tab 
-
-
-## publish
-
-- run `git add .`
-- run `git commit -m "..."`
-- run `npm version major|minor|patch -m "some message %s"`
-- run `npm publish`
