@@ -1,11 +1,12 @@
 {
-  "name": "buuug7-components",
+  "name": "buuug7-uniapp-components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "pretty-quick": "pretty-quick",
-    "test": "jest"
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags"
   },
   "husky": {
     "hooks": {
