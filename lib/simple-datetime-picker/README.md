@@ -1,8 +1,8 @@
 # 简单的日期时间选择器
 
-只支持选择日期和时间，只支持选择到分钟。
+只支持选择日期和时间，只支持选择到分钟。同时推荐我的其他组件[buuug7-uniapp-components](https://www.npmjs.com/package/buuug7-uniapp-components)。
 
-## 用法
+## 安装
 
 推荐从 npm 安装
 
@@ -10,6 +10,10 @@
 npm install buuug7-uniapp-components
 
 ```
+
+或者将下载包components目录中的`simple-datetime-picker.vue`复制到你本地的组件目录中
+
+## 用法
 
 在 template 中：
 
@@ -48,9 +52,7 @@ export default {
       },
 
       handleSubmit(e) {
-         console.log(e);
-         // {year: "2019", month: "07", day: "17", hour: "15", minute: "21"}
-
+         console.log(e); // {year: "2019", month: "07", day: "17", hour: "15", minute: "21"}
          this.birthday = `${e.year}-${e.month}-${e.day} ${e.hour}:${e.minute}`;
       }
    }
