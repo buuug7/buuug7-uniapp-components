@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
-$active-color: #488ee9
+$active-color: #488ee9;
 
 view {
    font-size: 16px;
