@@ -3,14 +3,15 @@
 The components support [uni-app](https://uniapp.dcloud.io/)
 
 ## usage
+
 ```
-npm install buuug7-uniapp-components
+npm install @buuug7/uniapp-components
 
 ```
 
 ## components
 
-+ load-more
-+ loading-skeleton
-+ simple-datetime-picker
-+ tab 
+- load-more
+- loading-skeleton
+- simple-datetime-picker
+- tab
