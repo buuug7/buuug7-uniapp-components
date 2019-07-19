@@ -7,11 +7,11 @@
 推荐从 npm 安装
 
 ```
-npm install buuug7-uniapp-components
+npm install @buuug7/uniapp-components
 
 ```
 
-或者将下载包components目录中的`simple-datetime-picker.vue`复制到你本地的组件目录中
+或者将下载包 components 目录中的`simple-datetime-picker.vue`复制到你本地的组件目录中
 
 ## 用法
 
@@ -19,10 +19,10 @@ npm install buuug7-uniapp-components
 
 ```vue
 <simple-datetime-picker
-   ref="myPicker"
-   @submit="handleSubmit"
-   :start-year="2000"
-   :end-year="2030"
+  ref="myPicker"
+  @submit="handleSubmit"
+  :start-year="2000"
+  :end-year="2030"
 ></simple-datetime-picker>
 ```
 
@@ -32,30 +32,30 @@ npm install buuug7-uniapp-components
 import { simpleDatetimePicker } from "buuug7-uniapp-components";
 
 export default {
-   components: {
-      simpleDatetimePicker
-   },
-   data() {
-      return {
-         birthday: ""
-      };
-   },
-   methods: {
-      // 打开picker
-      openDatetimePicker() {
-         this.$refs.myPicker.show();
-      },
+  components: {
+    simpleDatetimePicker
+  },
+  data() {
+    return {
+      birthday: ""
+    };
+  },
+  methods: {
+    // 打开picker
+    openDatetimePicker() {
+      this.$refs.myPicker.show();
+    },
 
-      // 关闭picker
-      closeDatetimePicker() {
-         this.$refs.myPicker.hide();
-      },
+    // 关闭picker
+    closeDatetimePicker() {
+      this.$refs.myPicker.hide();
+    },
 
-      handleSubmit(e) {
-         console.log(e); // {year: "2019", month: "07", day: "17", hour: "15", minute: "21"}
-         this.birthday = `${e.year}-${e.month}-${e.day} ${e.hour}:${e.minute}`;
-      }
-   }
+    handleSubmit(e) {
+      console.log(e); // {year: "2019", month: "07", day: "17", hour: "15", minute: "21"}
+      this.birthday = `${e.year}-${e.month}-${e.day} ${e.hour}:${e.minute}`;
+    }
+  }
 };
 ```
 
@@ -65,16 +65,16 @@ export default {
 
 ## 属性说明
 
--  `start-year`，类型 `number`，选择开始年份
--  `end-year`，类型 `number`, 选择结束年份
--  `@submit`, 类型 `function`, 监听选择事件，
--  `ref`，指定该 picker 的引用，方便打开关闭
+- `start-year`，类型 `number`，选择开始年份
+- `end-year`，类型 `number`, 选择结束年份
+- `@submit`, 类型 `function`, 监听选择事件，
+- `ref`，指定该 picker 的引用，方便打开关闭
 
 ## CHANGELOG
 
--  1.0.0 (2019-07-17)
-   -  首次发部，只支持选择日期时间，精确到分钟
--  1.0.4
-   -  增加从 npm 安装方式
+- 1.0.0 (2019-07-17)
+  - 首次发部，只支持选择日期时间，精确到分钟
+- 1.0.4
+  - 增加从 npm 安装方式
 
 ## 插件目录
