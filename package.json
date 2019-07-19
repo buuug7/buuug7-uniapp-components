@@ -1,7 +1,7 @@
 {
-  "name": "buuug7-uniapp-components",
-  "version": "1.0.7",
-  "description": "",
+  "name": "@buuug7/uniapp-components",
+  "version": "0.0.1",
+  "description": "uniapp components",
   "main": "index.js",
   "scripts": {
     "pretty-quick": "pretty-quick",
