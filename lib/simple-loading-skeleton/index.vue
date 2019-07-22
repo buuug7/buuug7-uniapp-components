@@ -16,7 +16,7 @@ export default {
   background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
   background-size: 200px 100%;
   background-repeat: no-repeat;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   display: inline-block;
   line-height: 1;
   width: 100%;
