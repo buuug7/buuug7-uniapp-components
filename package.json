@@ -1,8 +1,8 @@
 {
   "name": "@buuug7/uniapp-components",
   "version": "0.1.1",
-  "description": "uniapp components",
-  "main": "index.js",
+  "description": "buuug7's uni-app components",
+  "main": "",
   "scripts": {
     "pretty-quick": "pretty-quick",
     "postversion": "git push && git push --tags"
@@ -12,8 +12,15 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "uni-app",
+    "uni-app components"
+  ],
+  "author": {
+    "name": "buuug7",
+    "email": "puguhong@gmail.com",
+    "github": "https://github.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "husky": "^3.0.0",
