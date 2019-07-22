@@ -1,15 +1,17 @@
 <template>
-  <view><text class="loading"></text></view>
+  <view>
+    <text class="simple-loading-skeleton"></text>
+  </view>
 </template>
 
 <script>
 export default {
-  name: "loading-skeleton"
+  name: "SimpleLoadingSkeleton"
 };
 </script>
 
 <style>
-.loading {
+.simple-loading-skeleton {
   background-color: #eee;
   background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
   background-size: 200px 100%;

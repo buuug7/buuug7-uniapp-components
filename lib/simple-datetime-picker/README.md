@@ -29,11 +29,11 @@ npm install @buuug7/uniapp-components
 在 javascript 中：
 
 ```javascript
-import simpleDatetimePicker from "@buuug7/uniapp-components/lib/simple-datetime-picker";
+import SimpleDatetimePicker from "@buuug7/uniapp-components/lib/simple-datetime-picker";
 
 export default {
   components: {
-    simpleDatetimePicker
+    SimpleDatetimePicker
   },
   data() {
     return {

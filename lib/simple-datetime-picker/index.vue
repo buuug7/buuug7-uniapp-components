@@ -60,7 +60,7 @@ const formatNum = num => {
 };
 
 export default {
-  name: "simple-datetime-picker",
+  name: "SimpleDatetimePicker",
   props: {
     startYear: {
       type: Number,
