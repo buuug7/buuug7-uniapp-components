@@ -16,11 +16,15 @@ export default {
     },
     text: {
       type: Array,
-      default: ["加载更多", "没有更多了"]
+      default: function() {
+        return ["加载更多", "没有更多了"];
+      }
     },
     color: {
       type: Array,
-      default: ["#488ee9", "#808080"]
+      default: function() {
+        return ["#488ee9", "#808080"];
+      }
     }
   },
   methods: {
